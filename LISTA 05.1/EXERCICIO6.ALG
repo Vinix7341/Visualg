@@ -2,7 +2,7 @@ Algoritmo "exercicio6"
 
 
 Var
-cont, num: inteiro
+cont, num, mul: inteiro
 
 
 Inicio
@@ -11,9 +11,12 @@ leia(num)
 
 se num <= 50 entao
    cont:= num * 3
+   mul:= num
    enquanto cont <= 250 faca
-      escreval(num, " * 3 =", cont)
+      escreval(mul, " * 3 =", cont)
+      mul:= cont
       cont:= cont * 3
+      
    fimenquanto
 fimse
 Fimalgoritmo
