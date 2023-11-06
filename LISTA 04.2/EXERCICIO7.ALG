@@ -1,4 +1,6 @@
 Algoritmo "Exercicio7"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
 v1, v2: inteiro
